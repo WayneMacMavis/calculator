@@ -11,11 +11,11 @@ body {
 }
 
 .calc-btn {
-background-color: silver;
-color: black;
+background-color: black;
+color: rgb(38, 0, 255);
 width: 25px;
 height: 45px;
-border: 1px solid gray;
+border: 1px solid rgb(38, 0, 255);
 text-align: center;
 cursor: pointer;
 font-size: 32px;
@@ -24,7 +24,8 @@ padding-top: 3px;
 }
 
 .calc-btn:hover {
-background-color: orange;
+background-color: greenyellow;
+color: white;
 }
 
 .row {
@@ -50,11 +51,11 @@ background-color: orange;
     height: 80px;
     color: white;
     text-align: right;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-    border-top: 1px solid grey;
+    border-left: 5px solid grey;
+    border-right: 5px solid grey;
+    border-top: 5px solid grey;
     font-size: 48px;
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(87, 87, 87);
     overflow: hidden;
     white-space: nowrap;
     padding: 12px;
@@ -62,7 +63,12 @@ background-color: orange;
 }
 
 .calc-btn-operator {
-    background-color: orange;
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+}
+
+.calc-btn-operator:hover {
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 
