@@ -37,36 +37,34 @@ let operator = clickObj.target.innerText;
 switch (operator) {
     case '+':
         pendingVal = displayVal;
-        displayVal = '0';
-        displayElement.innerText = displayVal;
+        displayVal = '';
+        displayElement.innerText = displayVal + '+';
         evalStringArray.push(pendingVal);
         evalStringArray.push('+');
         break;
 
     case '-':
         pendingVal = displayVal;
-        displayVal = '0';
-        displayElement.innerText = displayVal;
+        displayVal = '';
+        displayElement.innerText = displayVal + '-';
         evalStringArray.push(pendingVal);
         evalStringArray.push('-');
         break;
 
         case 'x':
         pendingVal = displayVal;
-        displayVal = '0';
-        displayElement.innerText = displayVal;
+        displayVal = '';
+        displayElement.innerText = displayVal + 'x';
         evalStringArray.push(pendingVal);
         evalStringArray.push('*');
-        
         break;
 
         case '÷':
         pendingVal = displayVal;
-        displayVal = '0';
-        displayElement.innerText = displayVal;
+        displayVal = '';
+        displayElement.innerText = displayVal + '÷';
         evalStringArray.push(pendingVal);
         evalStringArray.push('/');
-        
         break;
 
         case '=':
