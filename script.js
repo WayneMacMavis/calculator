@@ -51,7 +51,7 @@ switch (operator) {
         evalStringArray.push('-');
         break;
 
-        case 'x':
+    case 'x':
         pendingVal = displayVal;
         displayVal = '';
         displayElement.innerText = displayVal + 'x';
@@ -59,7 +59,7 @@ switch (operator) {
         evalStringArray.push('*');
         break;
 
-        case '÷':
+    case '÷':
         pendingVal = displayVal;
         displayVal = '';
         displayElement.innerText = displayVal + '÷';
@@ -67,7 +67,7 @@ switch (operator) {
         evalStringArray.push('/');
         break;
 
-        case '=':
+    case '=':
         evalStringArray.push(displayVal);
         let evaluation = eval(evalStringArray.join(' '));
         displayVal = evaluation + '';
@@ -77,7 +77,7 @@ switch (operator) {
 
     default:
         break;
-}
+    }
 }
 
 for(let i=0; i<calcNumBtns.length; i++) {
