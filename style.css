@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 body {
+    background: linear-gradient(to right, rgb(0, 255, 0), rgb(0, 64, 255));
     font-family: 'Amatic SC', cursive;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
